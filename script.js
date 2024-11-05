@@ -86,7 +86,7 @@ let itemsDisponibles = ""
 let itemSeleccionado = ""
 
 function seleccionarItem (){
-    itemsDisponibles = prompt("Hay un bug en la partida: inicias con 4000 de oro y solo hay 3 objetos disponibles en la tienda. \n Elige uno:  \n1. Escarcha eterna. Precio: 3400\n2. Armadura Pétrea. Precio: 3300 \n3. Viento huracanado 2900")
+    itemsDisponibles = prompt("Hay un bug en la partida: inicias con 4000 de oro y solo hay 3 objetos disponibles en la tienda. \n Elige uno:  \n1. Escarcha eterna. Precio: 3400\n2. Armadura Pétrea. Precio: 3300 \n3.  Fuerza del viento. Precio: 2900")
     while (itemsDisponibles !== "1" && itemsDisponibles !== "2" && itemsDisponibles !== "3"){
         itemsDisponibles = prompt("Elige un objeto disponible en la tienda (ingresa el número correspondiente):\n1. Escarcha eterna. Precio: 3400\n2. Armadura Pétrea. Precio: 3300 \n3. Fuerza del viento. Precio: 2900")
     }
